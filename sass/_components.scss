@@ -47,10 +47,18 @@
     }
 }
 
-.form-control {
-    
-    &:focus {
-        
-        border: none !important;
-    }
+
+.search-form:focus-within {
+    transform: translateY(0px) scale(1.03); /* Move container up 4px when input is focused */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.07) !important; /* Smooth shadow */
+    border-radius: 3rem;
+}
+.search-form,
+.search-form .form-control,
+.search-form .btn {
+    transition: all 0.5s ease; /* Individual transition for input and button */
+}
+
+.form-control:focus {
+    box-shadow:none !important;
 }
