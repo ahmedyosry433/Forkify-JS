@@ -1,0 +1,15 @@
+.header {
+    height: 10rem;
+    &__logo {
+        width: 15rem;
+        height: 8;
+    }
+}
+.search-btn {
+    position: absolute;
+    
+}
+.btn-pri {
+    background-image: $gradient;
+    color: white;
+}

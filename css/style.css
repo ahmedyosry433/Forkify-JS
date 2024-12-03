@@ -1,0 +1,55 @@
+/*
+    0 - 600px:   phone
+    600 - 900px: Tablet portrait
+    900 - 1200px: Tablet Landscape
+    [1200 - 1800px]:  is where our normal styles apply
+    1800px + : Big desktop
+
+
+    $breakpoint argument choices : 
+    -  phone
+    -  tab-port
+    -  tab-land
+    -  big-desktop
+    OEDER: base + typography > Genral layout > grid > page layout > components
+
+    1em = 1px
+    */
+.header {
+  height: 10rem; }
+  .header__logo {
+    width: 15rem;
+    height: 8; }
+
+.search-btn {
+  position: absolute; }
+
+.btn-pri {
+  background-color: var(--primary-color);
+  color: white; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 61.25em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #615551;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 2 * 4vw); }
