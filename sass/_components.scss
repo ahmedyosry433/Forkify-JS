@@ -1,15 +1,56 @@
+.btn-pri {
+    background-image: var(--gradient) !important;
+    color: white !important;
+    border: none !important;
+    transition: all 0.8s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
+
+}
+.text-gradient {
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;}
+.bg-gradient {
+    background-color: var(--gradient) !important;
+} 
+
 .header {
-    height: 10rem;
+    &__links {
+        position: relative;
+        height: 100%;
+       
+        
+
+       
+    }
+    &__link {
+        color: var(--color-grey-dark-1);
+        height: 100%;
+        display: flex !important;
+        align-items: center;
+        padding: 0 1.5rem;
+        transition: background-color 0.5s ease;
+
+      
+        &:hover{
+            background-color: var(--color-grey-light-2);
+        }   
+    }
+    
+
     &__logo {
         width: 15rem;
         height: 8;
     }
 }
-.search-btn {
-    position: absolute;
+
+.form-control {
     
-}
-.btn-pri {
-    background-image: $gradient;
-    color: white;
+    &:focus {
+        
+        border: none !important;
+    }
 }

@@ -1,0 +1,23 @@
+.header {
+    height: 10rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: var(--color-grey-light-1);
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    height: 87vh;
+    
+}
+.sidebar {
+    width: 25rem;
+    background-color: white;
+    padding: 20px;
+}
+.main-content {
+    flex: 1;
+    background-color: var(--color-grey-light-1);
+}
