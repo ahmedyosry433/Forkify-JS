@@ -50,33 +50,94 @@
         <!-- Start Main And SidBar -->
         <div class="main-container">
             <!-- Start Sidbar -->
-            <aside class="sidebar">
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Analytics</a></li>
-                    <li><a href="#">Reports</a></li>
-                    <li><a href="#">Messages</a></li>
+            <aside class="sidebar pe-1 ">
+                <ul class="sidebar__list w-100 p-0 pt-5">
+                    <li class="sidebar__list-item "><a
+                            class="text-decoration-none d-flex align-items-center pt-3 pb-3 ps-4 text-uppercase"
+                            href="#">
+                            <img class="sidebar__item-img rounded-circle img-fluid" src="img/preview.png " alt="">
+                            <div class="sidebar__item-content ms-4">
+                                <h3 class="sidebar__item-title">Deep Dish Fruit Pizza</h3>
+                                <p class="sidebar__item-text">The Pioneer Woman</p>
+                            </div>
+                        </a></li>
+                    <li class="sidebar__list-item "><a
+                            class="text-decoration-none d-flex align-items-center pt-3 pb-3 ps-4 text-uppercase"
+                            href="#">
+                            <img class="sidebar__item-img rounded-circle img-fluid" src="img/preview.png " alt="">
+                            <div class="sidebar__item-content ms-4">
+                                <h3 class="sidebar__item-title">Deep Dish Fruit Pizza</h3>
+                                <p class="sidebar__item-text">The Pioneer Woman</p>
+                            </div>
+                        </a></li>
+                    <li class="sidebar__list-item "><a
+                            class="text-decoration-none d-flex align-items-center pt-3 pb-3 ps-4 text-uppercase"
+                            href="#">
+                            <img class="sidebar__item-img rounded-circle img-fluid" src="img/preview.png " alt="">
+                            <div class="sidebar__item-content ms-4">
+                                <h3 class="sidebar__item-title">Deep Dish Fruit Pizza</h3>
+                                <p class="sidebar__item-text">The Pioneer Woman</p>
+                            </div>
+                        </a></li>
+                    <li class="sidebar__list-item "><a
+                            class="text-decoration-none d-flex align-items-center pt-3 pb-3 ps-4 text-uppercase"
+                            href="#">
+                            <img class="sidebar__item-img rounded-circle img-fluid" src="img/preview.png " alt="">
+                            <div class="sidebar__item-content ms-4">
+                                <h3 class="sidebar__item-title">Deep Dish Fruit Pizza</h3>
+                                <p class="sidebar__item-text">The Pioneer Woman</p>
+                            </div>
+                        </a></li>
+                    <li class="sidebar__list-item "><a
+                            class="text-decoration-none d-flex align-items-center pt-3 pb-3 ps-4 text-uppercase"
+                            href="#">
+                            <img class="sidebar__item-img rounded-circle img-fluid" src="img/preview.png " alt="">
+                            <div class="sidebar__item-content ms-4">
+                                <h3 class="sidebar__item-title">Deep Dish Fruit Pizza</h3>
+                                <p class="sidebar__item-text">The Pioneer Woman</p>
+                            </div>
+                        </a></li>
+
                 </ul>
             </aside>
             <!-- End Sidbar -->
 
             <!-- Start Main -->
             <main class="main-content">
-                <h1>Welcome to Dashboard</h1>
-                <div class="dashboard-cards">
-                    <div class="dashboard-card">
-                        <h2>Quick Stats</h2>
-                        <p>Total Users: 1,234</p>
-                    </div>
-                    <div class="dashboard-card">
-                        <h2>Recent Activity</h2>
-                        <p>5 new reports</p>
-                    </div>
-                    <div class="dashboard-card">
-                        <h2>Notifications</h2>
-                        <p>3 unread messages</p>
+                <div class="recipe">
+                    <figure class="recipe__fig">
+                        <img class="object-fit-cover w-100 h-100 d-block"
+                            src="http://forkify-api.herokuapp.com/images/100111309d9.jpg" alt="">
+                        <h1
+                            class="recipe__title text-white  text-uppercase text-center  fw-bold lh-lg position-absolute bottom-0 start-50">
+                            <span>Double Crust Stuffed Pizza</span>
+                        </h1>
+                    </figure>
+                    <div class="recipe__details d-flex align-items-center justify-content-around mt-5">
+                        <div class="recipe__info fs-3">
+                            <i class="fa-regular fa-clock fs-1 text-gradient me-2"></i>
+                            <span>30 </span>
+                            <span class="text-uppercase fw-regular">minutes </span>
+                        </div>
+                        <div class="recipe__info fs-3 d-flex align-items-center">
+                            <i class="fa-solid fa-user-group fs-1 text-gradient me-2"></i>
+                            <span>23 </span>
+                            <span class="text-uppercase fw-regular ms-2">servings </span>
+                            <div class="recipe__btn ">
+                                <button class="btn " data-update="0"><i
+                                        class="btn-icon fa-solid fa-plus  rounded-circle fs-3 p-1"></i></button>
+                                <button class="btn" data-update="2"><i
+                                        class="btn-icon fa-solid fa-minus  rounded-circle fs-3 p-1"></i></button>
+                            </div>
+                        </div>
+                        <div class="recipe__info fs-3">
+                            <a class="p-4 bg-black rounded-circle" href="#"><i
+                                    class="fa-regular fa-bookmark fs-1 text-white "></i></a>
+                        </div>
+
                     </div>
                 </div>
+
             </main>
             <!-- End Main -->
 
